@@ -1,0 +1,316 @@
+cd ~
+pwd
+ll
+cd Data
+ll
+cd ..
+ls -lrt
+exit
+tree
+help tree
+find tree
+ll
+pwd
+cd ..
+cd dsc
+echo $HOSTNAME
+whoami
+cd Musioc
+cd Music
+pwd
+cd ..
+mkdir git
+cd git
+ll
+pwd
+echo "# shell" >> README.md
+git init
+cd ..
+pw
+pwd
+ll
+cd Data
+lll
+ll
+cd us_dot
+ll
+cd otp
+ll
+cd ..
+cd traffic
+ll
+cd ..
+ll
+cd opentraveldata
+ll
+head optd_airlines.csv
+tail -n 1 optd_airlines.csv
+less optd_airlines.csv
+fg
+clear
+ll
+less optd_por_public.csv
+cd ..
+ll
+cd shell
+less Finn.txt
+whoami
+cd ~
+ll
+cd ~
+ll
+ls -la
+vim .zshrc
+lr
+exit
+lr
+vim .zshrc
+ll
+vim .zshrc
+where is bash
+whereis bash
+locate bash
+which bash
+echo $PATH
+exit
+ls -s Data/opentraveldata
+ls -sr Data/opentraveldata
+ls -sl Data/opentraveldata
+ls -ls Data/opentraveldata
+ls -lsh Data/opentraveldata
+man ls
+ls -lSsh Data/opentraveldata
+ls -lSsh Data/opentraveldata | head -n 1 > largest_file.txt
+ll
+vim hello-world
+locate bash
+locate bin/bash
+ll
+vim hello-world
+<hello-world wc -l
+<hello-world wc -w
+<hello-world wc -c
+bash hello-world
+./hello-world
+locate bash
+locate bin/bash
+vim hello-world
+./hello-world
+chmod -x hello-world
+./hello-world
+chmod +x hello-world
+./hello-world
+hello-world
+vim hello-world
+hello-world
+./hello-world
+vim hello-world
+./hello-world
+cp hello-world.py
+vim hello-world.py
+./hello-world
+./hello-world.py
+chmod +x hello-world.py
+./hello-world.py
+which python
+locate python
+vim hello-world.py
+which python
+vim hello-world.py
+./hello-world.py
+vim hello-world.py
+vim hello-world
+./hello-world.py
+./hello-world
+./hello-world 10
+cat -n hello-world
+clear
+ll
+clear
+ll
+clear
+echo "Hola mundo"
+echo "Hola mundo" > pp.txt
+head pp.txt
+echo "Hola mundo" >> pp.txt
+heae pp.txt
+head pp.txt
+echo "Adios mundo cruel" > pp.txt
+head pp.txt
+exit
+clear
+ll
+clear
+ll
+cat -n hello-world
+q
+cleaer
+clear
+ls -lrth
+touch pp2.txt
+clear
+touch pp.txt
+echo "">pp2.txt
+head pp2.txt
+gedit pp3.txt
+ll
+cxlear
+clear
+echo $HISTFILE
+tail -n 3 /home/dsc/.history
+tail -n 5 /home/dsc/.history
+ls -l /home/dsc/.history
+ll $HISTFILE
+mkdir folder1
+mdkir folder2
+mkdir folder2
+clear
+touch folder1/one
+touch folder2/two
+rsync -avz folder1/one folder2
+ll folder2
+echo "first line">>folder1/one
+head folder1/one
+head folder2/one
+rsync -avz folder1/one folder2
+man rsync
+clear
+touch folder1/oneB
+rsync -avz folder1/one folder2
+ll folder2
+touch folder2/three
+ll folder2/
+ll folder1
+rsync -avz folder1 folder2
+clear
+ll folder2
+rsync -avz folder1/ folder2
+ll folder2
+rm -r folder2/folder1
+clear
+ls folder1
+ls folder2
+cd folder1
+ll
+ls -lrt
+cd ..
+ll
+clear
+ll
+cd git
+clear
+ll
+cd ~
+pwd
+cp /home/dsc/.history history_20201117.txt
+cd ~
+ll
+clear
+ll
+cd git
+ll
+clear
+ll
+git status
+clear
+ls -a
+git status
+git add history_20201117.txt
+git commit -m "added my first history file"
+clear
+pwd
+ll
+git status
+history -i
+clear
+history -i
+man history
+history -f
+clear
+history -n 2
+history -n clear
+lear
+q
+clear
+history -n
+history -i
+clkear
+clear
+cd ..
+cd ~
+ls -l
+cd Data
+clear
+ll
+cd shell
+ll
+wc Text_example.txt
+head -n 8 Text_example.txt
+wc -w Text_example.txt
+wc -l Text_example.txt
+wc -c Text_example.txt
+wc -m Text_example.txt
+clear
+echo "hola" 
+echo "hola" | wc 
+echo "hola2" | wc 
+echo -n "hola2" | wc 
+cd ~/
+ls -la
+clear
+echo $HISTFILE
+cp $HISTFILE ~/git/history_20201117.txt
+git commit
+vim ~/.history
+echo -n "echo"
+history -i
+pwd
+cd Data
+ll
+cd opentraveldata
+ll
+head -c 1K optd_aircraft.csv
+man head
+clear
+ls -lrt
+ls -lrt | head -n 1
+ls -lrt | head -n 2
+ls -lrt | tail -n 1
+ls -sS
+ls -sSl
+ls -sSlr
+ls -sSlr 
+cd ..
+ls -lrt
+cat largest_file.txt
+ls -sSlr Data/opentraveldata|tail -n 1 > largest_file.txt
+cat largest_file.txt
+clear
+cat largest_file.txt
+locate opentraveldata
+whereis opentraveldata
+pwd
+ls -sSlr Data/opentraveldata|tail -n 1
+head -n 5 Data/shell/Finn.txt| wc -w
+head Data/shell/Finn.txt
+cat -n Data/shell/Finn.txt | head -n 3
+clear
+history -i | grep rsync
+history | grep rsync
+cat ~/.history| grep rsync
+ls -lrt
+vim largest_file.txt
+grep "apr" ./
+grep -R "apr" ./
+grep  "apr" .
+cat ~/.history| grep release
+cat ~/.history| grep rsync
+echo $(date)
+clear
+echo "kk" 
+cd git
+pwd
+ls -lrt
+cat ~/.history|grep cp
+cp $HISTFILE ~/git/history_20201117.txt\
+
