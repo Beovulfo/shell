@@ -314,3 +314,13 @@ ls -lrt
 cat ~/.history|grep cp
 cp $HISTFILE ~/git/history_20201117.txt\
 
+ls -lrt
+git add history_20201117.txt
+git commit -m "history of the day updated"
+git push origin master
+git config --global user.email "analfer4@gmail.com"
+git config --global user.name "Toni"
+git commit -m "history of the day updated"
+git push origin master
+cp $HISTFILE history_20201117.txt\
+
