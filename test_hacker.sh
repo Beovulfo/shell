@@ -8,14 +8,14 @@ mkdir $diff_folder
 
 # Cloning repo into folder
 git clone https://github.com/rgomezh/campechano.git $folder
-list_origin=$(find . -name '*.out')
-list_ref=$(find $folder -name '*.out')
+list_origin=$(find . -maxdepth 1 -name '*.out'|sort) 
+list_ref=$(find $folder -maxdepth 1 -name '*.out' | sort)
 
 i=0
 for file in $list_ref; do
     echo $i $file
-    file0=${list_origin[$i]}
-    diff $file0 file > $diff_folder/$file0.diff
+    #echo ${list_origin[0]}
+    #diff ${fileOriginal} file > $diff_folder/$fileOrginal.diff
     i=$((i+1))
     
 done
