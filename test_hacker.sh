@@ -1,7 +1,10 @@
 #!/bin/bash
 #
-mkdir ref_refo
-cd ref_refo
-git clone https://github.com/rgomezh/campechano.git
+#
+folder="ref_repo"
+mkdir $folder
+cd $folder
+#git clone https://github.com/rgomezh/campechano.git
 cd ..
-echo "repo cloned"
+rm -r $folder
+echo "repo cloned, removing folder $folder"
