@@ -8,16 +8,22 @@ mkdir $diff_folder
 
 # Cloning repo into folder
 git clone https://github.com/rgomezh/campechano.git $folder
-list_origin=$(find . -maxdepth 1 -name '*.out'|sort) 
-list_ref=$(find $folder -maxdepth 1 -name '*.out' | sort)
 
-i=0
-for file in $list_ref; do
+origin=$(find . -maxdepth 1 -name '*.out'|sort|tr '\n' ' ') 
+ref=$(find $folder -maxdepth 1 -name '*.out' | sort|tr '\n' ' ')
+echo $origin
+
+##This command 
+#cut -d ' ' -f $i
+# will slice the list of strings for position i
+
+i=1
+for file in $ref; do
     echo $i $file
-    #echo ${list_origin[0]}
-    #diff ${fileOriginal} file > $diff_folder/$fileOrginal.diff
+    ori_i=$(echo $origin|cut -d ' ' -f $i)
+    echo $ori_i
+    diff $ori_i file > $diff_folder/$ori_i.diff
     i=$((i+1))
-    
 done
 
 #Deleting folder
